@@ -31,9 +31,11 @@ class Bikes extends React.Component {
               <h3>
                 {bike.brand} - ${bike.price}
               </h3>
-              <p>{bike.owner} is the owner</p>
+              <h4>{bike.owner} is the owner</h4>
               <p>
-                Color: {bike.color} | Size: {bike.size}
+                <b>Color: </b>
+                {bike.color} <b> | Size: </b>
+                {bike.size}
               </p>
               <Link to={`/bikes/${bike._id}`}>
                 <button className="action-btn details">details</button>
