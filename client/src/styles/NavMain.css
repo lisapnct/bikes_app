@@ -1,0 +1,44 @@
+.NavMain {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 60px;
+  padding: 0px 20px 0px 20px;
+  background-color: #fa8c41;
+  font-weight: 500;
+  color: white;
+}
+
+.navbar-links {
+  min-width: 35%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.add-btn {
+  color: #0C090D;
+  border: 1px solid white;
+  background-color: white;
+  border-radius: 20px;
+  padding: 5px;
+  min-width: 35%;
+  transition: transform 0.1s;
+}
+
+.add-btn:hover {
+  transform: scale(0.97);
+}
+
+.link {
+  padding: 5px;
+  border-radius: 20px;
+  min-width: 25%;
+  background-color: rgba(255, 255, 255, 0.3);
+  font-weight: bolder;
+  margin-right: 15px;
+}
+
+.bike-logo {
+  font-size: 2rem;
+}
